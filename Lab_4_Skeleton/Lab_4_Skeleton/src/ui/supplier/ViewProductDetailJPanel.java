@@ -29,7 +29,7 @@ public class ViewProductDetailJPanel extends javax.swing.JPanel {
     public ViewProductDetailJPanel(JPanel workArea, Product selectedProduct, Supplier supplier) {
         initComponents();
         this.workArea = workArea;
-        this.product = product;
+        this.product = selectedProduct;
 
         txtName.setText(this.product.getName());
         txtId.setText(String.valueOf(this.product.getId()));
